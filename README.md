@@ -1,8 +1,8 @@
-#AlgebraCook
+# AlgebraCook
 
-##Laravel projekt za vježbu
+## Laravel projekt za vježbu
 
-###Funkcionalnosti
+### Funkcionalnosti
 	- ispis svih recepata
 	- ispis pojedinačnog recepta
 	
