@@ -1,3 +1,5 @@
+@extends('master')
+
 <html>
     <head>
         <title>Laravel</title>
