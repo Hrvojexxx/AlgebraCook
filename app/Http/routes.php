@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Route::get('/recipes', 'RecipesController@index'); //prikaz svih recepata (popis)
 
-Route::get('/recipes', function() { return "Popis recepata"; });
+
 
 Route::get('/recipes/add', 'RecipesController@add'); //prikaz view-a s web obrascem za unos
 Route::post('/recipes/add', 'RecipesController@save'); //spremanje podataka u bazu

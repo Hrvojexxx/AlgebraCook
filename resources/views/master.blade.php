@@ -30,7 +30,7 @@
             <div class="navbar-header">
 
                 <!-- Branding Image -->
-                <a class="navbar-brand" href="{{ url('/') }}">
+                <a class="navbar-brand" href="{{ url('/recipes') }}">
                     Algebra Cook
                 </a>
             </div>
@@ -40,7 +40,6 @@
 	
 <!-- mjesto za prikaz grešaka -->
 	@include('errors')
-
     @yield('content')
 
     <!-- JavaScripts -->

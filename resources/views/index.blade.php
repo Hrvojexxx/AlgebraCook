@@ -1,12 +1,12 @@
 @extends('master')
 
-@section('ttle', 'Recepti')
+@section('title', 'Recepti')
 
 @section('content')
 <div class="container">
 	<div class="col-md-10 col-md-offset-1">
 		<div class="panel panel-default">
-			<div class="panel-heading">Recepti<br>
+			<div class="panel-heading">Recepti<br><br>
 				<a href="{{ url('/recepies/add') }}">
 					<i class="fa fa-btn fa-plus"></i>
 					Dodaj novi recept
@@ -18,7 +18,7 @@
 					<li class="list-group-item">
 						<a href="recipes/view/{{ $recipe->id }}">{{ $recipe->name }}</a>
 					</li>
-					@foreach
+					@endforeach
 				</ul>
 			</div>
 		</div>
