@@ -57,7 +57,8 @@ class RecipesController extends Controller
    
     public function view($id)
     {
-      return view('view')->with('recipe', Recipe::find($id));
+        //prikaz recepta s određenim $id
+		return "Prikaz recepta ID: " . $id;
     }
 
     /**
